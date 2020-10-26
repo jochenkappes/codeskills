@@ -34,6 +34,6 @@ public class Anagrams {
         if (Arrays.equals(arrayA, arrayB))
             return true;
 
-        return false;
+        return 0;
     }
 }
