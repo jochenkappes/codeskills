@@ -31,9 +31,8 @@ public class Anagrams {
         Arrays.sort(arrayA);
         Arrays.sort(arrayB);
 
-        if (Arrays.equals(arrayA, arrayB))
-            return true;
-
-        return 0;
+        return Arrays.equals(arrayA, arrayB);
+            
+         
     }
 }
